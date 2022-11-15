@@ -1,0 +1,36 @@
+body{
+  font-size: 16px;
+}
+
+table{
+  font-size: 14px;
+}
+
+#DataTables_Table_0_wrapper .row:first-child{
+  padding: 1.25rem 1.25rem;
+}
+
+#DataTables_Table_0_wrapper .row:last-child{
+  padding: 1.25rem 1.25rem;
+}
+
+
+table .text-reset{
+  display: inline-block;
+      max-width: 249px;
+      white-space: nowrap;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
+
+}
+.logo-txt {
+  font-size: 36px;
+}
+.logo-txt b{
+  font-weight: 700;
+  color: #206bc4;
+}
+.markdown-form{
+  max-width: 500px;
+  margin: 0 auto;
+}

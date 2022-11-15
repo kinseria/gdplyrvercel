@@ -1,0 +1,11 @@
+RewriteEngine on
+
+
+
+## Application Handler
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ index.php?a=$1	[QSA,NC,L]
+
+## Error 404 ##
+ErrorDocument 404 /index.php?a=404
